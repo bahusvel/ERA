@@ -1,7 +1,7 @@
 import entropy
 import hashlib
 
-input_file = open("python-mem/text", "rb")
+input_file = open("python-mem/text.crypto", "rb")
 output_file = open("output.mem", "wb")
 ENTROPY_THRESHOLD = 0.95
 decrypted_map = {}
